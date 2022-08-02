@@ -1,0 +1,8 @@
+@import "variables.module";
+
+body {
+  font-family: $font-type;
+  background-color: $primary;
+  color: $font-color;
+  margin: 0 auto;
+}

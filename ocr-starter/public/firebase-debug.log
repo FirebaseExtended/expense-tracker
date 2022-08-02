@@ -1,0 +1,24 @@
+[debug] [2022-04-25T20:30:22.132Z] ----------------------------------------------------------------------
+[debug] [2022-04-25T20:30:22.133Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting
+[debug] [2022-04-25T20:30:22.134Z] CLI Version:   10.7.1
+[debug] [2022-04-25T20:30:22.134Z] Platform:      darwin
+[debug] [2022-04-25T20:30:22.134Z] Node Version:  v14.16.1
+[debug] [2022-04-25T20:30:22.134Z] Time:          Mon Apr 25 2022 14:30:22 GMT-0600 (Mountain Daylight Time)
+[debug] [2022-04-25T20:30:22.134Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-25T20:30:22.177Z] Object ".hosting" in "firebase.json" has unknown property: {"additionalProperty":"source"}
+[debug] [2022-04-25T20:30:22.177Z] Field ".hosting" in "firebase.json" is possibly invalid: should be array
+[debug] [2022-04-25T20:30:22.178Z] Field ".hosting" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2022-04-25T20:30:22.180Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-25T20:30:22.180Z] > authorizing via signed-in user (andreaowu@gmail.com)
+[debug] [2022-04-25T20:30:22.180Z] [iam] checking project expensetracker-5501a for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-04-25T20:30:22.182Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/expensetracker-5501a:testIamPermissions [none]
+[debug] [2022-04-25T20:30:22.182Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/expensetracker-5501a:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-04-25T20:30:22.402Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/expensetracker-5501a:testIamPermissions 200
+[debug] [2022-04-25T20:30:22.402Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/expensetracker-5501a:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-04-25T20:30:22.404Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/expensetracker-5501a [none]
+[debug] [2022-04-25T20:30:22.607Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/expensetracker-5501a 200
+[debug] [2022-04-25T20:30:22.607Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/expensetracker-5501a {"projectId":"expensetracker-5501a","projectNumber":"989666135103","displayName":"expensetracker","name":"projects/expensetracker-5501a","resources":{"hostingSite":"expensetracker-5501a","storageBucket":"expensetracker-5501a.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[debug] [2022-04-25T20:30:22.629Z] Error: ENOENT: no such file or directory, open '/Users/andreawu/expensetracker/ocr/public/package.json'
+[error] 
+[error] Error: An unexpected error has occurred.

@@ -1,0 +1,19 @@
+.title {
+    padding-left: 0.6em;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+    padding: 0.6em;
+}
+
+.dialog {
+    min-width: 24em;
+    padding: 2em;
+}
+
+.receiptImage {
+    align-items: center;
+}
