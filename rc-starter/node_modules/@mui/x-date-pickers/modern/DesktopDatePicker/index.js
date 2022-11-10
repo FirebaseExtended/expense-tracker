@@ -1,1 +1,0 @@
-export { DesktopDatePicker } from './DesktopDatePicker';

@@ -1,1 +1,0 @@
-export { MobileDatePicker } from './MobileDatePicker';
