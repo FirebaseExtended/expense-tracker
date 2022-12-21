@@ -1,0 +1,11 @@
+/* Colors */
+$primary-color: #1a73e8; /* Google blue */
+$secondary-color: #ffca28;
+
+/* Fonts */
+$font-type: "Google Sans", "Roboto", sans-serif;
+$font-color: #ffffff;
+
+:export {
+  primaryColor: $primary-color;
+}

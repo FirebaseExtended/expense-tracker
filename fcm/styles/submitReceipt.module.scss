@@ -1,0 +1,22 @@
+.box {
+    align-items: center;
+    display: inline-flex;
+    justify-content: flex-start;
+    padding-bottom: 0.5em;
+}
+
+.file {
+    margin-left: 1em;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin-top: 0.5em;
+}
+
+.actions {
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
