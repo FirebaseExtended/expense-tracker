@@ -5,7 +5,7 @@ YouTube channel](https://www.youtube.com/c/firebase).
 
 ## How to use this project
 
-This is an expense tracker web app used in the "Firebase Codealong: Build and Manage a Web App" video series. Feel free to clone to follow along.
+This is an expense tracker web app used in the "Firebase Codealong: Build and Manage a Web App" [video series](https://www.youtube.com/playlist?list=PLl-K7zZEsYLlfMZ9isO6Hfnyw040N3uT5). Feel free to clone to follow along.
 
 We make this code available as-is.
 
