@@ -22,7 +22,7 @@ import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyBZtLc5fN-NvwCc0tqvVqIKKZyGGDT9e7Q',
+  apiKey: 'number',
   authDomain: 'ololand-project.firebaseapp.com',
   databaseURL: 'https://ololand-project-default-rtdb.firebaseio.com',
   projectId: 'ololand-project',
