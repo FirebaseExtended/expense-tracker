@@ -9,7 +9,7 @@
     "@date-io/date-fns": "^2.13.1",
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
-    "@google-cloud/vision": "^2.4.2",
+    "@google-cloud/vision": "^4.3.0",
     "@mui/icons-material": "^5.5.1",
     "@mui/lab": "^5.0.0-alpha.76",
     "@mui/material": "^5.5.2",
