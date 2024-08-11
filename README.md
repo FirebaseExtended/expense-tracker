@@ -18,7 +18,7 @@ cd expense-tracker
 If you want to use the finished code, you will have to do the following before it'll work:
 1. In `firebase/firebase.js`, find `firebaseConfig` and update the variable with your [project configuration](https://firebase.google.com/docs/web/setup). 
 2. In `firebase/storage.js`, find `BUCKET_URL` and set it to the `storageBucket` from your `firebaseConfig` variable.
-3. `npm install` in the home directory ("home directory" being any folder inside expense-tracker, ie expense-tracker/mvp) as well as the functions folder.
+3. `npm install` in the home directory ("home directory" being any folder inside expense-tracker, ie `expense-tracker/mvp`) as well as the functions folder (if there is one).
 
 ## License
 
